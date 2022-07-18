@@ -21,3 +21,9 @@ const mul = (a) => {
 console.log('2. ' + mul(2)(3)(4));
 
 // 3. curring in JS ========================================================== //
+
+const func = () => {
+    return 100;
+}
+
+console.log('3. ' + setTimeout(() => { func() }, 5000));
