@@ -1,14 +1,18 @@
 // 1. third min and third max ================================================ //
 
+console.log('1. ');
+
 const thirdRule = (arr) => {
     const a = arr.sort((a, b) => { return a - b })[2];
     const b = (arr.sort((a, b) => { return a - b }).reverse())[2];
     return [a, b];
 }
 
-console.log('1. ' + thirdRule([5, 6, 12, 3, 7, 13, 2]));
+console.log(thirdRule([5, 6, 12, 3, 7, 13, 2]));
 
 // 2. curring in JS ========================================================== //
+
+console.log('2. ');
 
 const mul = (a) => {
     return (b) => {
@@ -18,9 +22,11 @@ const mul = (a) => {
     }
 }
 
-console.log('2. ' + mul(2)(3)(4));
+console.log(mul(2)(3)(4));
 
 // 3. promise in JS ========================================================== //
+
+console.log('3. ');
 
 let response = 0;
 
@@ -47,4 +53,44 @@ async function callerFun() {
     console.log("After waiting");
 }
 
-callerFun();
+// callerFun();
+
+// 4. spread and rest in JS =================================================== //
+
+console.log('4. ');
+
+let a = {
+    firstName: "Sourav",
+    lastName: "Dutta",
+    blood: "A+"
+};
+
+let b = a;
+b.firstName = "Jit";
+console.log(a, b); // b is affecting a (not spread)
+
+a = {
+    firstName: "Sourav",
+    lastName: "Dutta",
+    blood: "A+"
+};
+
+let c = { ...a };
+c.firstName = "Soham";
+console.log(a, c); // c is not affecting a (spread)
+
+a = {
+    firstName: "Sourav",
+    lastName: "Dutta",
+    blood: "A+"
+};
+
+let { firstName, ...rest } = a;
+
+console.log(firstName); // firstName is a value
+console.log(rest); // rest is a object without the firstName
+
+// 5. spread and rest in JS =================================================== //
+
+console.log('5. ');
+
