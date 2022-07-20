@@ -22,8 +22,10 @@ console.log('2. ' + mul(2)(3)(4));
 
 // 3. curring in JS ========================================================== //
 
-const func = () => {
-    return 100;
+const func = async () => {
+    setTimeout(() => {
+        return 100;
+    }, 3000);
 }
 
-console.log('3. ' + setTimeout(() => { func() }, 5000));
+console.log('3. ' + func());
