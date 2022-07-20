@@ -20,12 +20,31 @@ const mul = (a) => {
 
 console.log('2. ' + mul(2)(3)(4));
 
-// 3. curring in JS ========================================================== //
+// 3. promise in JS ========================================================== //
 
-const func = async () => {
-    setTimeout(() => {
-        return 100;
-    }, 3000);
+let response = 0;
+
+const testAsync = () => {
+    return new Promise((resolve, reject) => {
+        try {
+            setTimeout(() => {
+                console.log("Hello from inside the testAsync function");
+                response = 100;
+                resolve();
+            }, 3000)
+        } catch {
+            reject();
+            throw Error("something went wrong");
+        }
+    });
 }
 
-console.log('3. ' + func());
+async function callerFun() {
+    console.log("Caller");
+    console.log(response);
+    await testAsync();
+    console.log(response);
+    console.log("After waiting");
+}
+
+callerFun();
