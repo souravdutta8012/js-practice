@@ -24,6 +24,17 @@ const mul = (a) => {
 
 console.log(mul(2)(3)(4));
 
+const sum = (a) => {
+    return (b) => {
+        if (b) {
+            return sum(a + b);
+        }
+        return a;
+    }
+}
+
+console.log(sum(2)(3)(4)());
+
 // 3. promise in JS ========================================================== //
 
 console.log('3. ');
