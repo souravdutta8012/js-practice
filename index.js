@@ -101,7 +101,40 @@ let { firstName, ...rest } = a;
 console.log(firstName); // firstName is a value
 console.log(rest); // rest is a object without the firstName
 
-// 5. spread and rest in JS =================================================== //
+// 5. calculator in JS =================================================== //
 
 console.log('5. ');
 
+class Calc {
+    constructor(num = 0) {
+        this.num = num;
+    }
+
+    add(a) {
+        return new Calc(this.num + a);
+    }
+
+    sub(a) {
+        return new Calc(this.num - a);
+    }
+
+    mul(a) {
+        return new Calc(this.num * a);
+    }
+
+    div(a) {
+        return new Calc(this.num / a);
+    }
+
+    result() {
+        return this.num;
+    }
+}
+
+const calc = new Calc();
+const result = calc.add(10).mul(5).sub(30).add(10).result();
+console.log(result);
+
+// 6. calculator in JS =================================================== //
+
+console.log('6. ');
