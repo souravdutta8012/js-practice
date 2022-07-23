@@ -142,7 +142,7 @@ console.log(result);
 
 console.log('6. ');
 
-fetch('https://api2.binance.com/api/v3/ticker/24hr')
+await fetch('https://api2.binance.com/api/v3/ticker/24hr')
     .then(response => response.json())
     .then(data => console.log(data.length));
 
@@ -150,9 +150,19 @@ fetch('https://api2.binance.com/api/v3/ticker/24hr')
 
 console.log('7. ');
 
-axios.get('https://api2.binance.com/api/v3/ticker/24hr').then(response => console.log(response.data.length));
+await axios.get('https://api2.binance.com/api/v3/ticker/24hr').then(response => console.log(response.data.length));
 
-// 8. axios api call ===================================================== //
+// 8. reduce in js ======================================================== //
 
 console.log('8. ');
 
+let x = [1, 2, 3];
+let y = x.reduce((item, total) => {
+    return total += item;
+})
+
+console.log(y);
+
+// 9. reduce in js ======================================================== //
+
+console.log('9. ');
