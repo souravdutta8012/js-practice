@@ -145,6 +145,7 @@ fetch('https://api2.binance.com/api/v3/ticker/24hr')
     .then(response => response.json())
     .then(data => console.log(data.length));
 
-// 7. fetch api in JS ==================================================== //
+// 7. axios api call ===================================================== //
 
 console.log('7. ');
+
