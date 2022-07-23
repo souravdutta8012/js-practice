@@ -1,4 +1,5 @@
 import fetch from "node-fetch";
+import axios from "axios";
 
 // 1. third min and third max ================================================ //
 
@@ -148,4 +149,10 @@ fetch('https://api2.binance.com/api/v3/ticker/24hr')
 // 7. axios api call ===================================================== //
 
 console.log('7. ');
+
+axios.get('https://api2.binance.com/api/v3/ticker/24hr').then(response => console.log(response.data.length));
+
+// 8. axios api call ===================================================== //
+
+console.log('8. ');
 
