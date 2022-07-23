@@ -152,7 +152,7 @@ console.log('7. ');
 
 await axios.get('https://api2.binance.com/api/v3/ticker/24hr').then(response => console.log(response.data.length));
 
-// 8. reduce in js ======================================================== //
+// 8. reduce in js ======================================================= //
 
 console.log('8. ');
 
@@ -163,6 +163,6 @@ let y = x.reduce((item, total) => {
 
 console.log(y);
 
-// 9. reduce in js ======================================================== //
+// 9. sort in js ========================================================= //
 
 console.log('9. ');
