@@ -1,3 +1,5 @@
+import fetch from "node-fetch";
+
 // 1. third min and third max ================================================ //
 
 console.log('1. ');
@@ -135,6 +137,14 @@ const calc = new Calc();
 const result = calc.add(10).mul(5).sub(30).add(10).result();
 console.log(result);
 
-// 6. calculator in JS =================================================== //
+// 6. fetch api in JS ==================================================== //
 
 console.log('6. ');
+
+fetch('https://api2.binance.com/api/v3/ticker/24hr')
+    .then(response => response.json())
+    .then(data => console.log(data.length));
+
+// 7. fetch api in JS ==================================================== //
+
+console.log('7. ');
