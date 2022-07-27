@@ -163,14 +163,54 @@ let y = x.reduce((item, total) => {
 
 console.log(y);
 
-// 9. sort in js ========================================================= //
+// 9. multiple arguments in js =========================================== //
 
 console.log('9. ');
 
-// 10. some in js ======================================================== //
+function sumAll(...args) {
+    let sum = 0;
+    for (let i = 0; i < args.length; i++) {
+        sum += args[i];
+    }
+    return sum;
+}
+
+console.log(sumAll(2, 5, 7, 12, 45, 10, 3));
+
+// 10. sort in js ======================================================== //
 
 console.log('10. ');
 
-// 11. palindrome in js ================================================== //
+function sorting(arr) {
+    return arr.sort();
+}
+
+console.log(sorting([3, 5, 7, 1, 0, 2, 9]));
+
+// 11. some in js ======================================================== //
 
 console.log('11. ');
+
+function exists(arr) {
+
+    let result = arr.some((item) => {
+        return item % 2 === 0;
+    });
+    return result;
+}
+
+console.log(exists([3, 5, 7, 1, 5, 11, 9]))
+
+// 12. palindrome in js ================================================== //
+
+console.log('12. ');
+
+function palindrome(a, b) {
+    return a === b.split("").reverse().join("");
+}
+
+console.log(palindrome("abc", "bca"));
+
+// 13. apply, call, bind in js =========================================== //
+
+console.log('13. ');
