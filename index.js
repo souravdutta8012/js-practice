@@ -243,7 +243,7 @@ setTimeout(() => {
 let counter = 0;
 let intervalId = setInterval(() => {
     counter++;
-    if (counter > 2) {
+    if (counter > 1) {
         clearInterval(intervalId);
     }
     console.log("inside setInterval");
