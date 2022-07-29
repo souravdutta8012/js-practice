@@ -232,6 +232,23 @@ console.log(person.fullName.apply(person1, ["kolkata", "india"]));
 const fullName = person.fullName.bind(person1, "kolkata", "india")
 console.log(fullName());
 
-// 14. apply, call, bind in js =========================================== //
+// 14. setTimeout and setInterval in js ================================== //
 
 console.log('14. ');
+
+setTimeout(() => {
+    console.log("inside setTimeout");
+}, 2000);
+
+let counter = 0;
+let intervalId = setInterval(() => {
+    counter++;
+    if (counter > 2) {
+        clearInterval(intervalId);
+    }
+    console.log("inside setInterval");
+}, 2000);
+
+// 15. setTimeout and setInterval in js ================================== //
+
+console.log('15. ');
