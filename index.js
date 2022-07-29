@@ -214,3 +214,24 @@ console.log(palindrome("abc", "bca"));
 // 13. apply, call, bind in js =========================================== //
 
 console.log('13. ');
+
+let person = {
+    fullName: function (city, country) {
+        return this.firstName + " " + this.lastName + " " + city + " " + country;
+    }
+}
+
+let person1 = {
+    firstName: "jhon",
+    lastName: "doe",
+}
+
+console.log(person.fullName.call(person1, "kolkata", "india"));
+console.log(person.fullName.apply(person1, ["kolkata", "india"]));
+
+const fullName = person.fullName.bind(person1, "kolkata", "india")
+console.log(fullName());
+
+// 14. apply, call, bind in js =========================================== //
+
+console.log('14. ');
