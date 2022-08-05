@@ -299,19 +299,19 @@ import axios from "axios";
 // 16. generator func in js ============================================== //
 
 {
-    console.log('16. ');
+    // console.log('16. ');
 
-    function* generator() {
-        let i = 0;
-        while (true) {
-            yield i++;
-        }
-    }
+    // function* generator() {
+    //     let i = 0;
+    //     while (true) {
+    //         yield i++;
+    //     }
+    // }
 
-    let func = generator();
+    // let func = generator();
 
-    console.log(func.next().value);
-    console.log(func.next().value);
+    // console.log(func.next().value);
+    // console.log(func.next().value);
 
 }
 
