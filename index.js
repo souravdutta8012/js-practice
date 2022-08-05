@@ -1,4 +1,4 @@
-// 1. third min and third max ================================================ //
+// 1. third min and third max ============================================ //
 
 {
     //     console.log('1. ');
@@ -12,7 +12,7 @@
     //     console.log(thirdRule([5, 6, 12, 3, 7, 13, 2]));
 }
 
-// 2. curring in JS ========================================================== //
+// 2. curring in JS ====================================================== //
 
 {
     //     console.log('2. ');
@@ -39,7 +39,7 @@
     //     console.log(sum(2)(3)(4)());
 }
 
-// 3. promise in JS ========================================================== //
+// 3. promise in JS ====================================================== //
 
 {
     // console.log('3. ');
@@ -72,7 +72,7 @@
     // callerFun();
 }
 
-// 4. spread and rest in JS =================================================== //
+// 4. spread and rest in JS ============================================== //
 
 {
     // console.log('4. ');
@@ -296,10 +296,29 @@ import axios from "axios";
     // console.log(parent());
 }
 
-// 16. closure in js ===================================================== //
+// 16. generator func in js ============================================== //
 
 {
     console.log('16. ');
+
+    function* generator() {
+        let i = 0;
+        while (true) {
+            yield i++;
+        }
+    }
+
+    let func = generator();
+
+    console.log(func.next().value);
+    console.log(func.next().value);
+
+}
+
+// 17. generator func in js ============================================== //
+
+{
+    console.log('17. ');
 
 
 }
