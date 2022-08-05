@@ -286,11 +286,10 @@ import axios from "axios";
     function parent() {
         let name = "sourav";
         console.log(name);
-        if (true) {
-            let name = "jit";
-            console.log(name);
+        function child() {
+            console.log(name); // can access parent variable
         }
-        console.log(name);
+        child();
         return name;
     }
 
