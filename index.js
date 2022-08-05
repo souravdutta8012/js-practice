@@ -281,19 +281,19 @@ import axios from "axios";
 // 15. closure in js ===================================================== //
 
 {
-    console.log('15. ');
+    // console.log('15. ');
 
-    function parent() {
-        let name = "sourav";
-        console.log(name);
-        function child() {
-            console.log(name); // can access parent variable
-        }
-        child();
-        return name;
-    }
+    // function parent() {
+    //     let name = "sourav";
+    //     console.log(name);
+    //     function child() {
+    //         console.log(name); // can access parent variable
+    //     }
+    //     child();
+    //     return name;
+    // }
 
-    console.log(parent());
+    // console.log(parent());
 }
 
 // 16. closure in js ===================================================== //
