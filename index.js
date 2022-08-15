@@ -312,7 +312,6 @@ import axios from "axios";
 
     // console.log(func.next().value);
     // console.log(func.next().value);
-
 }
 
 // 17. guess the output ================================================== //
@@ -339,7 +338,6 @@ import axios from "axios";
     // }
 
     // func2();
-
 }
 
 // 18. guess the output ================================================== //
@@ -353,33 +351,30 @@ import axios from "axios";
     // x[z] = { name: "som" };
 
     // console.log(JSON.stringify(x));
-
 }
 
 // 19. guess the output ================================================== //
 
 {
-    console.log('19. ');
+    // console.log('19. ');
 
-    function func() {
-        setTimeout(() => {
-            console.log(x);
-            console.log(y);
-        }, 500);
-    }
+    // function func() {
+    //     setTimeout(() => {
+    //         console.log(x);
+    //         console.log(y);
+    //     }, 500);
+    // }
 
-    var x = 2;
-    let y = 12;
+    // var x = 2;
+    // let y = 12;
 
-    func();
-
+    // func();
 }
 
 // 20. guess the output ================================================== //
 
 {
     console.log('20. ');
-
 
 
 }
