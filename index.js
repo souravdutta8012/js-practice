@@ -345,7 +345,30 @@ import axios from "axios";
 // 18. guess the output ================================================== //
 
 {
-    console.log('18. ');
+    // console.log('18. ');
+
+    // let x = {}, y = { name: "sourav" }, z = { name: "jit" };
+
+    // x[y] = { name: "sam" };
+    // x[z] = { name: "som" };
+
+    // console.log(JSON.stringify(x));
+
+}
+
+// 19. guess the output ================================================== //
+
+{
+    console.log('19. ');
+
+
+
+}
+
+// 20. guess the output ================================================== //
+
+{
+    console.log('20. ');
 
 
 
