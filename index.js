@@ -361,7 +361,17 @@ import axios from "axios";
 {
     console.log('19. ');
 
+    function func() {
+        setTimeout(() => {
+            console.log(x);
+            console.log(y);
+        }, 500);
+    }
 
+    var x = 2;
+    let y = 12;
+
+    func();
 
 }
 
