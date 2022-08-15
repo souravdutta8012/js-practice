@@ -315,10 +315,38 @@ import axios from "axios";
 
 }
 
-// 17. generator func in js ============================================== //
+// 17. guess the output ================================================== //
 
 {
-    console.log('17. ');
+    // console.log('17. ');
+
+    // function func1() {
+    //     for (let i = 0; i < 5; i++) {
+    //         setTimeout(() => {
+    //             console.log(i);
+    //         }, 500)
+    //     }
+    // }
+
+    // func1();
+
+    // function func2() {
+    //     for (var i = 0; i < 5; i++) {
+    //         setTimeout(() => {
+    //             console.log(i);
+    //         }, 500)
+    //     }
+    // }
+
+    // func2();
+
+}
+
+// 18. guess the output ================================================== //
+
+{
+    console.log('18. ');
+
 
 
 }
