@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <style>
+        div {
+            min-height: 100px;
+            min-width: 100px;
+            padding: 30px;
+            border: 1px black solid;
+        }
+    </style>
+    <div id="parent">
+        <div id="child1">
+            <div id="child2">
+                <div id="child3">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("parent").addEventListener("click", (e) => {
+            e.stopPropagation();
+            window.alert("You clicked the parent element!");
+        }, false);
+
+        document.getElementById("child1").addEventListener("click", (e) => {
+            e.stopPropagation();
+            window.alert("You clicked the child1 element!");
+        }, false);
+
+        document.getElementById("child2").addEventListener("click", (e) => {
+            e.stopPropagation();
+            window.alert("You clicked the child2 element!");
+        }, false);
+
+        document.getElementById("child3").addEventListener("click", (e) => {
+            e.stopPropagation();
+            window.alert("You clicked the child3 element!");
+        }, false);
+    </script>
+
+</body>
+
+</html>
