@@ -411,9 +411,31 @@ import axios from "axios";
     // console.log(res);
 }
 
-// 22. solve the problem ================================================= //
+// 22. make polyfill of filter =========================================== //
+
+{
+    // console.log('22. ');
+
+    // let a = [1, 2, 3, 4];
+
+    // Array.prototype.myFilter = function (cb) {
+    //     let temp = [];
+
+    //     for (let i = 0; i < this.length; i++) {
+    //         if (cb(this[i], i, this)) {
+    //             temp.push(this[i]);
+    //         }
+    //     }
+
+    //     return temp;
+    // }
+
+    // let c = a.myFilter(item => item % 2 === 0);
+    // console.log(c);
+}
+
+// 22. make polyfill of filter =========================================== //
 
 {
     console.log('22. ');
-
 }
