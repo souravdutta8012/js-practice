@@ -434,8 +434,38 @@ import axios from "axios";
     // console.log(c);
 }
 
-// 22. make polyfill of filter =========================================== //
+// 23. make polyfill of find ============================================= //
 
 {
-    console.log('22. ');
+    // console.log('23. ');
+
+    // let a = [1, 2, 3, 4];
+
+    // Array.prototype.myFind = function (cb) {
+    //     let temp = null;
+
+    //     for (let i = 0; i < this.length; i++) {
+    //         if (cb(this[i], i, this)) {
+    //             temp = this[i];
+    //             break;
+    //         }
+    //     }
+
+    //     return temp;
+    // }
+
+    // let c = a.myFind(item => item === 3);
+    // console.log(c);
+}
+
+// 24. make polyfill of find ============================================= //
+
+{
+    console.log('24. ');
+}
+
+// 25. make polyfill of find ============================================= //
+
+{
+    console.log('25. ');
 }
