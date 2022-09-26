@@ -371,10 +371,36 @@ import axios from "axios";
     // func();
 }
 
-// 20. guess the output ================================================== //
+// 20. solve the problem ================================================= //
 
 {
     console.log('20. ');
 
+    // const arr = [
+    //     [1, 2, 3],
+    //     1, 2, 3,
+    //     [1, 2, 3, [3, 4, [3, 4]]],
+    //     2
+    // ];
 
+    // const a = arr.toString();
+    // let b = a.split(",");
+    // b = b.map((item) => {
+    //     return parseInt(item);
+    // });
+
+    // console.log(b);
+
+}
+
+// 21. solve the problem ================================================= //
+
+{
+    console.log('21. ');
+}
+
+// 22. solve the problem ================================================= //
+
+{
+    console.log('22. ');
 }
