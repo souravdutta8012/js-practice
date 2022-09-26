@@ -374,7 +374,7 @@ import axios from "axios";
 // 20. solve the problem ================================================= //
 
 {
-    console.log('20. ');
+    // console.log('20. ');
 
     // const arr = [
     //     [1, 2, 3],
@@ -395,20 +395,20 @@ import axios from "axios";
 // 21. make polyfill of map ============================================== //
 
 {
-    console.log('21. ');
+    // console.log('21. ');
 
-    const arr = [1, 2, 3, 6, 7];
+    // const arr = [1, 2, 3, 6, 7];
 
-    Array.prototype.myMap = function (cb) {
-        let temp = [];
-        for (let i = 0; i < this.length; i++) {
-            temp.push(cb(this[i], i, this))
-        }
-        return temp;
-    }
+    // Array.prototype.myMap = function (cb) {
+    //     let temp = [];
+    //     for (let i = 0; i < this.length; i++) {
+    //         temp.push(cb(this[i], i, this))
+    //     }
+    //     return temp;
+    // }
 
-    const res = arr.myMap(item => item * 2);
-    console.log(res);
+    // const res = arr.myMap(item => item * 2);
+    // console.log(res);
 }
 
 // 22. solve the problem ================================================= //
