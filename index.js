@@ -390,17 +390,30 @@ import axios from "axios";
     // });
 
     // console.log(b);
-
 }
 
-// 21. solve the problem ================================================= //
+// 21. make polyfill of map ============================================== //
 
 {
     console.log('21. ');
+
+    const arr = [1, 2, 3, 6, 7];
+
+    Array.prototype.myMap = function (cb) {
+        let temp = [];
+        for (let i = 0; i < this.length; i++) {
+            temp.push(cb(this[i], i, this))
+        }
+        return temp;
+    }
+
+    const res = arr.myMap(item => item * 2);
+    console.log(res);
 }
 
 // 22. solve the problem ================================================= //
 
 {
     console.log('22. ');
+
 }
