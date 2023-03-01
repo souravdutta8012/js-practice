@@ -312,6 +312,7 @@ import axios from "axios";
 
     // console.log(func.next().value);
     // console.log(func.next().value);
+    // console.log(func.next().value);
 }
 
 // 17. guess the output ================================================== //
