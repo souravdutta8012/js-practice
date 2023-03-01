@@ -177,7 +177,7 @@ import axios from "axios";
     //     return total += item;
     // })
 
-    //     console.log(y);
+    // console.log(y);
 }
 
 // 9. multiple arguments in js =========================================== //
