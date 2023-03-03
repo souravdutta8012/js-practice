@@ -459,10 +459,25 @@ import axios from "axios";
     // console.log(c);
 }
 
-// 24.  ============================================= //
+// 24. array sum problem pwc ============================================= //
 
 {
     // console.log('24. ');
+
+    // let a = [2, 3, 5, 4, 1, 0];
+    // let z = 5;
+    // let final = [];
+    // for (let i = 0; i < a.length; i++) {
+    //     if (i < a.length - 1) {
+    //         for (let j = i + 1; j < a.length; j++) {
+    //             if (a[i] + a[j] === z) {
+    //                 final.push([i, j]);
+    //             }
+    //         }
+    //     }
+    // }
+    // console.log(final);
+
 }
 
 // 25.  ============================================= //
