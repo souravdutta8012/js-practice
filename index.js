@@ -480,7 +480,7 @@ import axios from "axios";
 
 }
 
-// 25. api call problem pwc ============================================== //
+// 25. api call problem pwc with fetch =================================== //
 
 {
     // console.log('25. ');
@@ -510,4 +510,35 @@ import axios from "axios";
 
     // caller();
 
+}
+
+// 26. api call problem pwc with promise ================================= //
+
+{
+    // console.log('26. ');
+
+    // async function caller() {
+    //     return new Promise(async (resolve, reject) => {
+    //         try {
+    //             await fetch('https://jsonplaceholder.typicode.com/posts/1')
+    //                 .then(res => res.json())
+    //                 .then(async res => {
+    //                     await fetch('https://jsonplaceholder.typicode.com/posts/' + res.id, {
+    //                         method: 'PATCH'
+    //                     }).then(res => res.json()).then(res => resolve(res));
+    //                 });
+    //         } catch {
+    //             reject(null);
+    //         }
+    //     });
+    // }
+
+    // let res = await caller();
+    // console.log(res);
+
+}
+
+// 27.  ================================= //
+{
+    // console.log('27. ');
 }
