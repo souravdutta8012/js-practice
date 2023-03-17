@@ -538,7 +538,31 @@ import axios from "axios";
 
 }
 
-// 27.  ================================= //
+// 27. make polyfill of reduce =========================================== //
+
 {
     // console.log('27. ');
+
+    // Array.prototype.Myreduce = function (cb) {
+    //     let total = 0;
+    //     for (let i = 0; i < this.length; i++) {
+    //         total += this[i];
+    //     }
+    //     return total;
+    // };
+
+    // let a = [1, 2, 3, 4, 5];
+    // let res = a.Myreduce((item, total) => {
+    //     return total += item;
+    // });
+
+    // console.log(res);
+}
+
+// 28.  =========================================== //
+
+{
+    // console.log('28. ');
+
+
 }
