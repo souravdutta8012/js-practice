@@ -559,10 +559,45 @@ import axios from "axios";
     // console.log(res);
 }
 
-// 28.  =========================================== //
+// 28. coditas question ================================================== //
 
 {
     // console.log('28. ');
 
+    // const sampleArr = [1, 2, 4, 3, 4, 2, 5].map(val => ({ val }));
+
+    // console.log(sampleArr); // [{"val":1},{"val":2},{"val":4},{"val":3},{"val":4},{"val":2},{"val":5}]
+
+    // let res = [];
+
+    // sampleArr.forEach(item => {
+    //     if (!res.find(t => t.val === item.val)) {
+    //         res.push(item);
+    //     }
+    // });
+
+    // sampleArr.sort((a, b) => (a.val - b.val));
+
+    // console.log(res); // [{"val":1},{"val":2},{"val":4},{"val":3},{"val":5}]
+}
+
+// 29. guess the output ================================================== //
+
+{
+    // console.log('29. ');
+
+    // let a = [1, true, "ok", null, undefined, ''];
+    // console.log(a.map(x => x));
+    // console.log(a.filter(x => x));
+    // console.log(a.find(x => x));
+    // console.log(a.reduce(x => x));
+    // console.log(a.some(x => x));
+    // console.log(a.every(x => x));
+}
+
+// 30. guess the output ================================================== //
+
+{
+    // console.log('30. ');
 
 }
