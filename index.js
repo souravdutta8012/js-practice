@@ -595,9 +595,21 @@ import axios from "axios";
     // console.log(a.every(x => x));
 }
 
-// 30. guess the output ================================================== //
+// 30. find all possible palindrome ====================================== //
 
 {
     // console.log('30. ');
+
+    // let a = 'aabbaa';
+    // let count = 0;
+    // for (let i = 0; i < a.length; i++) {
+    //     for (let j = i + 1; j < a.length; j++) {
+    //         if (a.slice(i, j + 1) === a.slice(i, j + 1).split('').reverse().join('')) {
+    //             count++;
+    //             console.log(a.slice(i, j + 1));
+    //         }
+    //     }
+    // }
+    // console.log(count);
 
 }
