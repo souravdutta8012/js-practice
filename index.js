@@ -634,3 +634,15 @@ import axios from "axios";
     // console.log(b);
 
 }
+
+// 32. guess the output ================================================ //
+
+{
+    // console.log('32. ');
+
+    // console.log(4 + "3");
+    // console.log(4 - "3");
+    // console.log(4 * "3");
+    // console.log(4 / "3");
+
+}
