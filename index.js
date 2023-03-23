@@ -613,3 +613,24 @@ import axios from "axios";
     // console.log(count);
 
 }
+
+// 31. deep copy & shallow copy ========================================= //
+
+{
+    // console.log('31. ');
+
+    // let a = {
+    //     "firstname": "sourav",
+    //     "lastname": "dutta",
+    //     "user": {
+    //         "firstname": "sourav",
+    //         "lastname": "dutta",
+    //     }
+    // }
+    // let b = JSON.parse(JSON.stringify(a)); // deep copy
+    // b.user.firstname = "jit";
+    // b.user.lastname = "saha";
+    // console.log(a);
+    // console.log(b);
+
+}
