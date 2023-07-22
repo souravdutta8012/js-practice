@@ -646,3 +646,55 @@ import axios from "axios";
     // console.log(4 / "3");
 
 }
+
+// 33. max distance between letter ===================================== //
+
+{
+    // console.log('33. ');
+
+    // let input = "sdasd adasd a das das dasda daaddd";
+    // let letter = "a";
+
+    // let dis = 0;
+    // let found = false;
+    // let count = 0;
+    // input.split('').forEach((item) => {
+    //     if (item === letter) {
+    //         if (!found) {
+    //             found = true;
+    //         }
+    //         dis = count;
+    //     } else if (found && item !== letter && item !== " ") {
+    //         count++;
+    //     }
+    // });
+    // console.log(dis);
+
+}
+
+// 34. repeat number =================================================== //
+
+{
+    // console.log('34. ');
+
+    // let input = [2, 3, 4, 3, 6, 5, 6, 7, 6, 8];
+    // let res = [];
+
+    // input = input.sort((a, b) => (a - b));
+    // let flag = input[0];
+    // let count = 0;
+    // input.forEach((item, i) => {
+    //     if (item === flag) {
+    //         count++;
+    //     } else {
+    //         res.push({ [flag]: count });
+    //         flag = item;
+    //         count = 1;
+    //     }
+    //     if (input.length - 1 === i) {
+    //         res.push({ [flag]: count });
+    //     }
+    // });
+    // console.log(res);
+
+}
