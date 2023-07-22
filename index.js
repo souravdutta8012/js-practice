@@ -477,7 +477,6 @@ import axios from "axios";
     //     }
     // }
     // console.log(final);
-
 }
 
 // 25. api call problem pwc with fetch =================================== //
@@ -509,7 +508,6 @@ import axios from "axios";
     // }
 
     // caller();
-
 }
 
 // 26. api call problem pwc with promise ================================= //
@@ -535,7 +533,6 @@ import axios from "axios";
 
     // let res = await caller();
     // console.log(res);
-
 }
 
 // 27. make polyfill of reduce =========================================== //
@@ -611,7 +608,6 @@ import axios from "axios";
     //     }
     // }
     // console.log(count);
-
 }
 
 // 31. deep copy & shallow copy ========================================= //
@@ -632,7 +628,6 @@ import axios from "axios";
     // b.user.lastname = "saha";
     // console.log(a);
     // console.log(b);
-
 }
 
 // 32. guess the output ================================================ //
@@ -644,7 +639,6 @@ import axios from "axios";
     // console.log(4 - "3");
     // console.log(4 * "3");
     // console.log(4 / "3");
-
 }
 
 // 33. max distance between letter ===================================== //
@@ -669,7 +663,6 @@ import axios from "axios";
     //     }
     // });
     // console.log(dis);
-
 }
 
 // 34. repeat number =================================================== //
@@ -696,5 +689,4 @@ import axios from "axios";
     //     }
     // });
     // console.log(res);
-
 }
