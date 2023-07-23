@@ -519,6 +519,7 @@ import axios from "axios";
     //             await fetch('https://jsonplaceholder.typicode.com/posts/1')
     //                 .then(res => res.json())
     //                 .then(async res => {
+    //                     console.log(res);
     //                     await fetch('https://jsonplaceholder.typicode.com/posts/' + res.id, {
     //                         method: 'PATCH'
     //                     }).then(res => res.json()).then(res => resolve(res));
