@@ -1,42 +1,42 @@
 // 1. third min and third max ============================================ //
 
 {
-    //     console.log('1. ');
+    // console.log('1. ');
 
-    //     const thirdRule = (arr) => {
-    //         const a = arr.sort((a, b) => { return a - b })[2];
-    //         const b = (arr.sort((a, b) => { return a - b }).reverse())[2];
-    //         return [a, b];
-    //     }
+    // const thirdRule = (arr) => {
+    //     const a = arr.sort((a, b) => { return a - b })[2];
+    //     const b = (arr.sort((a, b) => { return a - b }).reverse())[2];
+    //     return [a, b];
+    // }
 
-    //     console.log(thirdRule([5, 6, 12, 3, 7, 13, 2]));
+    // console.log(thirdRule([5, 6, 12, 3, 7, 13, 2]));
 }
 
 // 2. curring in JS ====================================================== //
 
 {
-    //     console.log('2. ');
+    // console.log('2. ');
 
-    //     const mul = (a) => {
-    //         return (b) => {
-    //             return (c) => {
-    //                 return a * b * c;
-    //             }
+    // const mul = (a) => {
+    //     return (b) => {
+    //         return (c) => {
+    //             return a * b * c;
     //         }
     //     }
+    // }
 
-    //     console.log(mul(2)(3)(4));
+    // console.log(mul(2)(3)(4));
 
-    //     const sum = (a) => {
-    //         return (b) => {
-    //             if (b) {
-    //                 return sum(a + b);
-    //             }
-    //             return a;
+    // const sum = (a) => {
+    //     return (b) => {
+    //         if (b) {
+    //             return sum(a + b);
     //         }
+    //         return a;
     //     }
+    // }
 
-    //     console.log(sum(2)(3)(4)());
+    // console.log(sum(2)(3)(4)());
 }
 
 // 3. promise in JS ====================================================== //

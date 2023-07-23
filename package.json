@@ -18,7 +18,8 @@
   "homepage": "https://github.com/souravdutta8012/js-practice#readme",
   "dependencies": {
     "axios": "^0.27.2",
-    "node-fetch": "^3.2.9"
+    "node-fetch": "^3.2.9",
+    "rxjs": "^7.8.1"
   },
   "type": "module"
 }
