@@ -468,11 +468,9 @@ import axios from "axios";
     // let z = 5;
     // let final = [];
     // for (let i = 0; i < a.length; i++) {
-    //     if (i < a.length - 1) {
-    //         for (let j = i + 1; j < a.length; j++) {
-    //             if (a[i] + a[j] === z) {
-    //                 final.push([i, j]);
-    //             }
+    //     for (let j = i + 1; j < a.length; j++) {
+    //         if (a[i] + a[j] === z) {
+    //             final.push([i, j]);
     //         }
     //     }
     // }
