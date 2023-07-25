@@ -31,7 +31,7 @@
 // 2. promise example ================================================= //
 
 {
-    // const promise = (v1, v2) => {
+    // const test = (v1, v2) => {
     //     return new Promise((resolve, reject) => {
     //         if (v1 === v2) {
     //             resolve();
@@ -42,7 +42,7 @@
     // };
 
     // function demoPromise() {
-    //     promise("geeksforgeeks", "geeksforgeeks")
+    //     test("geeksforgeeks", "geeksforgeeks")
     //         .then(function () {
     //             console.log("Promise resolved successfully");
     //         })
@@ -57,7 +57,7 @@
 // 3. async/await example ============================================= //
 
 {
-    // const promise = (v1, v2) => {
+    // const test = (v1, v2) => {
     //     return new Promise((resolve, reject) => {
     //         if (v1 === v2) {
     //             resolve("Strings are same");
@@ -69,7 +69,7 @@
 
     // async function demoPromise() {
     //     try {
-    //         let message = await promise("geeksforgeeks", "geeksforgeeks");
+    //         let message = await test("geeksforgeeks", "geeksforgeeks");
     //         console.log(message);
     //     } catch (error) {
     //         console.log("Error: " + error);
