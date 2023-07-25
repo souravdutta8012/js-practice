@@ -34,20 +34,20 @@
     // const test = (v1, v2) => {
     //     return new Promise((resolve, reject) => {
     //         if (v1 === v2) {
-    //             resolve();
+    //             resolve("Strings are same");
     //         } else {
-    //             reject();
+    //             reject("Strings are not same");
     //         }
     //     })
     // };
 
     // function demoPromise() {
     //     test("geeksforgeeks", "geeksforgeeks")
-    //         .then(function () {
-    //             console.log("Promise resolved successfully");
+    //         .then(function (res) {
+    //             console.log(res);
     //         })
-    //         .catch(function () {
-    //             console.log("Promise is rejected");
+    //         .catch(function (res) {
+    //             console.log(res);
     //         });
     // }
 
