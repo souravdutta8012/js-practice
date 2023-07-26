@@ -689,3 +689,20 @@ import axios from "axios";
     // });
     // console.log(res);
 }
+
+// 35. callback function =============================================== //
+
+{
+    const mainfunc = (callback) => {
+        setTimeout(() => {
+            callback("done");
+        }, 1000);
+    }
+
+    const maincallback = (res) => {
+        console.log(res);
+    };
+
+    console.log("start");
+    mainfunc(maincallback);
+}
