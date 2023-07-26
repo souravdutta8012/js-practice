@@ -4,7 +4,7 @@
   "description": "JS practice",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon expressserver.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,11 @@
   "homepage": "https://github.com/souravdutta8012/js-practice#readme",
   "dependencies": {
     "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
     "node-fetch": "^3.2.9",
+    "nodemon": "^3.0.1",
     "rxjs": "^7.8.1"
   },
   "type": "module"
