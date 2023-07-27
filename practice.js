@@ -706,3 +706,22 @@ import axios from "axios";
 
     // mainfunc(maincallback);
 }
+
+// 36. fibonacchi function ============================================= //
+
+{
+    // const fibo = (val) => {
+    //     let temp = [];
+    //     let a = 0;
+    //     let b = 1;
+    //     for (let i = 0; i < val; i++) {
+    //         temp.push(a);
+    //         let next = a + b;
+    //         a = b;
+    //         b = next;
+    //     }
+    //     return temp;
+    // }
+
+    // console.log(fibo(10));
+}
