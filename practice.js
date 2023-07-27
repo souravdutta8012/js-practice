@@ -700,9 +700,9 @@ import axios from "axios";
     // }
 
     // const maincallback = (res) => {
+    //     console.log("start");
     //     console.log(res);
     // };
 
-    // console.log("start");
     // mainfunc(maincallback);
 }
