@@ -25,6 +25,8 @@
     //     }
     // }
 
+    // const mul = a => b => c => a * b * c;
+
     // console.log(mul(2)(3)(4));
 
     // const sum = (a) => {
@@ -35,6 +37,8 @@
     //         return a;
     //     }
     // }
+
+    // const sum = a => b => b ? sum(a + b) : a;
 
     // console.log(sum(2)(3)(4)());
 }
