@@ -218,7 +218,6 @@ import axios from "axios";
     // console.log('11. ');
 
     // function exists(arr) {
-
     //     let result = arr.some((item) => {
     //         return item % 2 === 0;
     //     });
@@ -291,10 +290,11 @@ import axios from "axios";
     //     let name = "sourav";
     //     console.log(name);
     //     function child() {
-    //         console.log(name); // can access parent variable
+    //         let name = "jit";
+    //         console.log(name); // can access parent variable here
     //     }
     //     child();
-    //     return name;
+    //     return name; // does not affect the parent value
     // }
 
     // console.log(parent());
@@ -390,9 +390,7 @@ import axios from "axios";
 
     // const a = arr.toString();
     // let b = a.split(",");
-    // b = b.map((item) => {
-    //     return parseInt(item);
-    // });
+    // b = b.map(item => parseInt(item));
 
     // console.log(b);
 }
@@ -471,7 +469,7 @@ import axios from "axios";
     // let a = [2, 3, 5, 4, 1, 0];
     // let z = 5;
     // let final = [];
-    // for (let i = 0; i < a.length; i++) {
+    // for (let i = 0; i < a.length - 1; i++) {
     //     for (let j = i + 1; j < a.length; j++) {
     //         if (a[i] + a[j] === z) {
     //             final.push([i, j]);
@@ -496,17 +494,13 @@ import axios from "axios";
     // }
 
     // async function one() {
-    //     let response = null;
-    //     await fetch('https://jsonplaceholder.typicode.com/posts/1').then(res => res.json()).then(res => response = res);
-    //     return response;
+    //     return await fetch('https://jsonplaceholder.typicode.com/posts/1').then(res => res.json());
     // }
 
     // async function two(id) {
-    //     let response = null;
-    //     await fetch('https://jsonplaceholder.typicode.com/posts/' + id, {
+    //     return await fetch('https://jsonplaceholder.typicode.com/posts/' + id, {
     //         method: 'PATCH'
-    //     }).then(res => res.json()).then(res => response = res);
-    //     return response;
+    //     }).then(res => res.json());
     // }
 
     // caller();
@@ -543,18 +537,20 @@ import axios from "axios";
 {
     // console.log('27. ');
 
-    // Array.prototype.Myreduce = function (cb) {
-    //     let total = 0;
+    // Array.prototype.Myreduce = function (cb, init) {
+    //     let total = init;
     //     for (let i = 0; i < this.length; i++) {
-    //         total += this[i];
+    //         if (total) {
+    //             total = cb.call(undefined, total, this[i], i, this);
+    //         } else {
+    //             total = this[i];
+    //         }
     //     }
     //     return total;
     // };
 
     // let a = [1, 2, 3, 4, 5];
-    // let res = a.Myreduce((item, total) => {
-    //     return total += item;
-    // });
+    // let res = a.Myreduce((total, item) => total + item);
 
     // console.log(res);
 }
@@ -659,6 +655,8 @@ import axios from "axios";
     //     if (item === letter) {
     //         if (!found) {
     //             found = true;
+    //         } else {
+    //             count++;
     //         }
     //         dis = count;
     //     } else if (found && item !== letter && item !== " ") {
