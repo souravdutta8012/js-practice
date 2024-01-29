@@ -671,24 +671,17 @@ import axios from "axios";
 {
     // console.log('34. ');
 
-    // let input = [2, 3, 4, 3, 6, 5, 6, 7, 6, 8];
-    // let res = [];
+    // let input = [2, 3, 4, 3, 6, 5, 8, 6, 7, 6, 8];
+    // let res = {};
 
-    // input = input.sort((a, b) => (a - b));
-    // let flag = input[0];
-    // let count = 0;
-    // input.forEach((item, i) => {
-    //     if (item === flag) {
-    //         count++;
+    // input.forEach((item) => {
+    //     if (res[item]) {
+    //         res[item] += 1;
     //     } else {
-    //         res.push({ [flag]: count });
-    //         flag = item;
-    //         count = 1;
-    //     }
-    //     if (input.length - 1 === i) {
-    //         res.push({ [flag]: count });
+    //         res[item] = 1;
     //     }
     // });
+
     // console.log(res);
 }
 
@@ -706,7 +699,9 @@ import axios from "axios";
     //     console.log(res);
     // };
 
+    // console.log("hi");
     // mainfunc(maincallback);
+    // console.log("ok");
 }
 
 // 36. fibonacchi function ============================================= //
