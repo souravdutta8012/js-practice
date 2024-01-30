@@ -1,7 +1,8 @@
 // 1. observable example ============================================== //
 
+import { Observable } from 'rxjs';
+
 {
-    // import { Observable } from 'rxjs';
 
     // const observable = new Observable((subscriber) => {
     //     subscriber.next(1);
