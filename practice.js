@@ -722,3 +722,13 @@ import axios from "axios";
 
     // console.log(fibo(10));
 }
+
+// 36. occurance of word in a string ==================================== //
+
+{
+    // let str = 'souravdslfjhsouravdsdsSoUrAvdll';
+    // let word = 'sourav';
+
+    // let exp = new RegExp(word, 'ig');
+    // console.log(str.match(exp).length);
+}
