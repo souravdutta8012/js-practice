@@ -648,22 +648,7 @@ import axios from "axios";
     // let input = "sdasd adasd a das das dasda daaddd";
     // let letter = "a";
 
-    // let dis = 0;
-    // let found = false;
-    // let count = 0;
-    // input.split('').forEach((item) => {
-    //     if (item === letter) {
-    //         if (!found) {
-    //             found = true;
-    //         } else {
-    //             count++;
-    //         }
-    //         dis = count;
-    //     } else if (found && item !== letter && item !== " ") {
-    //         count++;
-    //     }
-    // });
-    // console.log(dis);
+    // console.log(input.replaceAll(' ', '').lastIndexOf(letter) - input.replaceAll(' ', '').indexOf(letter));
 }
 
 // 34. repeat number =================================================== //
